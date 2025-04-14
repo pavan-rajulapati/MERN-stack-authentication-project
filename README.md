@@ -33,26 +33,26 @@ A secure MERN stack authentication system with user registration, login, JWT-bas
 ## ⚙️ Setup
 
 ## Backend .env file 
-PORT=5000
-MONGO_URI=your_mongodb_uri
-SECRET_KEY=your_secret
-NODE_ENV=development
-EMAIL_USER=your_email
-EMAIL_PASS=your_email_password
-CLIENT_URL=http://localhost:3000
+- PORT=5000
+- MONGO_URI=your_mongodb_uri
+- SECRET_KEY=your_secret
+- NODE_ENV=development
+- EMAIL_USER=your_email
+- EMAIL_PASS=your_email_password
+- CLIENT_URL=http://localhost:3000
 
 ### Backend
 ```bash
 cd server
 npm install
 npm start
+```
 
 ### Frontned
 ```bash
 cd client
 npm install
 npm run dev
-
 ```
 
 
